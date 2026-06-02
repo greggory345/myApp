@@ -3,115 +3,234 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="slide.css">
+    <link rel="stylesheet" href="">
 </head>
 <body>
     <!-- main Container -->
     <div class="container">
-        <!-- top nav -->
         <nav class="topNav">
-            <img class="logo" src="images/logo.png" alt="" srcset="">
-            <input type="text" 
-            name="search for anything" id="search for anything"
-            placeholder="Search for anything" 
-            maxlength="25" 
-            minlength="3" 
-            pattern="^[A-Za-z]+$"
-            required>
-            <!-- <button class="btn"> -->
-            <!-- </button> --> 
-             <img class="Rectangle" src="images/Rectangle 9.png" alt="">
-                
-             <div class="mag">
-                🔍
-             </div>
-             <img class="Vector" src="images/Vector.png" alt="">
-            <a class="docs" href="http://docs">Docs</a>
+            <div class="logo">
+               <img class="logo_img" src="images/logo.png" alt="" srcset="">
+            </div>
+            <div class="nav_content">
+               <div class="input_wrapper">
+                  <input type="text" 
+                     name="search for anything" id="search for anything"
+                     placeholder="Search for anything" 
+                     maxlength="25" 
+                     minlength="3" 
+                     pattern="^[A-Za-z]+$"
+                     required
+                  />
+                  <img class="Rectangle" src="images/Rectangle 9.png" alt="">
+                  <img class="mag" src="images/Vector.png" alt="" />
+               </div>
+               <!-- <img class="Vector" src="images/Vector.png" alt=""> -->
+               <a class="docs" href="http://docs">Docs</a>
 
-            <img class="notifications" src="images/notifications.png" alt="" srcset="">
+               <img class="notifications" src="images/notifications.png" alt="" srcset="">
+               <div class="user">
+                  <img class="avatar" src="images/avatar.png" alt="" srcset="">
+                  <h3 class="companyName">
+                     Adedeji
+                  </h3>
+               </div>
 
-            <img class="avatar" src="images/avatar.png" alt="" srcset="">
-            <h3 class="companyName">
-                Adedeji
-            </h3>
-
-            <select class="optGroup" name="optGroup" id="optGroup"></select>
-
-            <!-- <div class="union">
-
-            </div> -->
+            </div>
         </nav>
 
-        <!-- side Bar -->
-         <nav class="sideBar">
-            <select name="switchOrganization" id="switchOrganization" class="org">Switch Organization
-                <option value="switchOrganization" selected>Switch Organization</option>
+         <aside class="sidebar">
+            <select name="switchOrganization" id="switchOrganization"  class="org">
+               <option value="switchOrganization" selected>
+                  Switch Organization
+               </option>
             </select>
             
-            <!-- briefcase -->
-            <div class="briefCase">
-                <img src="images/upper.png" alt="" class="upper">
-                <img src="images/lower.png" alt="" class="lower">
+            <div class="name_and_icon">
+               <div class="icon">
+                  <img src="images/briefcase.svg" alt="" class="upper">
+               </div>
+               <p class="name_and_icon_text">Dashboard</p>
+            </div>
+            
+            <div class="customers">
+              <h3 class="customers_h3">
+                  CUSTOMERS
+              </h3>
             </div>
 
-             <!-- Dashboard -->
-              <div class="house">
-                <a class="dashBoard" href="Dashboard">Dashboard</a>
-                 <img class="home1" src="images/home 1.png" alt="">
+            <div class="name_and_icon">
+               <div class="icon">
+                  <img class="friend" src="images/userFriends.png" alt="" srcset="">
+               </div>
+               <p class="name_and_icon_text">Users</p>
+            </div>
+
+            <div class="name_and_icon">
+               <div class="icon">
+                  <img class="users1" src="images/users 1.png" alt="">
+               </div>
+               <p class="name_and_icon_text">Guarantors</p>
+            </div>
+
+            <div class="name_and_icon">
+               <div class="icon">
+                  <img src="images/sack 1.png" alt="">
+               </div>
+               <p class="name_and_icon_text">Loans</p>
+            </div>
+
+            <div class="name_and_icon">
+               <div class="icon">
+                  <img src="images/handShakeRegular 1.png" alt="">
+               </div>
+               <p class="name_and_icon_text">Decision Models</p>
+            </div>
+
+            <div class="name_and_icon">
+               <div class="icon">
+                  <img src="images/piggyBank.png" alt="">
+               </div>
+               <p class="name_and_icon_text">Savings</p>
+            </div>
+
+            <div class="name_and_icon">
+               <a href="loanRequest">Loan Requests</a>
+               <img class="sack" src="images/sack 2.png" alt="">
+               <img class="hand" src="images/handHolding.png" alt="">
+            </div>
+
+            <div class="name_and_icon">
+               <a href="whiteList">Whitelist</a>
+               <img src="images/userCheck1.png" alt="">
+            </div>
+
+            <div class="name_and_icon">
+               <a href="karma">karma</a>
+               <img src="images/userTimes.png" alt="">
+            </div>
+
+            <div class="customers">
+               <h3 class="customers_h3">
+                  BUISNESS
+               </h3>
+            </div>
+            <div class="name_and_icon">
+               <a href="organization">Organization</a>
+               <img src="images/briefcase 1.png" alt="">
+            </div>
+
+            <div class="name_and_icon">
+               <a href="loanProducts">
+                  Loan Products
+               </a>
+               <img src="images/Group 104.png" alt="">
+            </div>
+
+            <div class="name_and_icon">
+               <a href="savingsProduct">Savings Product</a>
+               <img src="images/bank.png" alt="">
+            </div>
+
+            <div class="name_and_icon">
+               <a href="feesAndCharges">Fees And Charges</a>
+               <img src="images/coins.png" alt="">
+            </div>
+
+            <div class="name_and_icon">
+               <a href="transactions">Transactions</a>
+               <img src="images/icon.png" alt="">
+            </div>
+
+            <div class="name_and_icon">
+               <a href="services">Services</a>
+               <img src="images/galaxy 1.png" alt="">
+            </div>
+
+            <div class="name_and_icon">
+               <a href="serviceAccount">Service Account</a>
+               <img src="images/userCog1.png" alt="">
+            </div>
+
+            <div class="name_and_icon">
+            <a href="settlements">Settlements</a>
+            <img src="images/scroll 1.png" alt="">
+            </div>
+
+            <div class="name_and_icon">
+               <a href="reports">Reports</a>
+               <img src="images/chartBar 2.png" alt="">
+            </div>
+            <div class="customers">
+               <h3 class="customers_h3">SETTINGS</h3>
+            </div>
+
+              <div class="name_and_icon">
+               <a href="preferences">Preferences</a>
+               <img src="images/slidersH 1.png" alt="">
               </div>
 
-              <div class="customers">
-                <h3>
-                    CUSTOMERS
-                </h3>
+              <div class="name_and_icon">
+               <a href="feesAndPricing">Fees and Pricing</a>
+               <img src="images/badgePercent1.png" alt="">
               </div>
 
-              
-             <div class="users">
-                <a class="people" href="User">Users</a>
+              <div class="name_and_icon">
+               <a href="auditLogs">Audit Logs</a>
+               <img src="images/clipboardList1.png" alt="">
+              </div>
 
-                <img class="friend" src="images/userFriends.png" alt="" srcset="">
-                <img class="stripe" src="images/stripe.png" alt="">
-             </div>
+              <div class="whiteSpace"></div>
+         </aside>
 
-             <div class="guarantors">
-                <a id="guarantors" href="guarantors">Guarantors</a>
-                <img class="users1" src="images/users 1.png" alt="">
-             </div>
+        <main class="top">
+         <h1>
+            Users
+         </h1>
+          <div class="boombox">
+            <div class="box1">
+               <h3>
+                  Users
+               </h3>
 
-             <div class="loan">
-                <a href="loans">Loans</a>
-                <img src="images/sack 1.png" alt="">
-             </div>
+               <h2>
+                  2,453
+               </h2>
+               <img src="images/icon (1).png" alt="">
+            </div>
 
-             <div class="decision">
-                <a href="decisionModels">Decision Models</a>
-                <img src="images/handShakeRegular 1.png" alt="">
-             </div>
+            <div class="box2">
+               <img src="images/icon (2).png" alt="">
+               <h3>
+                  Active Users
+               </h3>
+               <h2>
+                  2,453
+               </h2>
+            </div>
 
-             <div class="savings">
-                <a href="savings">Savings</a>
-                <img src="images/piggyBank.png" alt="">
-             </div>
+            <div class="box3">
+               <img src="images/icon (3).png" alt="">
+               <h3>
+                  Users With Loan
+               </h3>
+               <h2>
+                  12,453
+               </h2>
+            </div>
 
-             <div class="loanRequest">
-                <a href="loanRequest">Loan Requests</a>
-                <img class="sack" src="images/sack 2.png" alt="">
-                <img class="hand" src="images/handHolding.png" alt="">
-             </div>
+            <div class="box4">
+               <img src="images/icon (4).png" alt="">
+               <h3>
+                  Users With Savings
+               </h3>
+               <h2>
+                  102,453
+               </h2>
+            </div>
 
-             <div class="whiteList">
-                <a href="whiteList">Whitelist</a>
-                <img src="images/userCheck1.png" alt="">
-             </div>
-
-             <div class="karma">
-                <a href="karma">karma</a>
-                <img src="images/userTimes.png" alt="">
-             </div>
-
-              
-         </nav>
+         </div>
+        </main>
     </div>
 </body>
 </html>
